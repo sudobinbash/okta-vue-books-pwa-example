@@ -5,8 +5,8 @@ import Home from './views/Home.vue'
 import Auth from '@okta/okta-vue';
 
 Vue.use(Auth, {
-  issuer: 'https://micah.okta.com/oauth2/ause30t3cb0dH2EEq1t7',
-  client_id: '0oae3lifh6SKP5cbk1t7',
+  issuer: 'https://frederico.oktapreview.com',
+  client_id: '0oa153wiydzZI897W0h8',
   redirect_uri: window.location.origin + '/callback',
 });
 
